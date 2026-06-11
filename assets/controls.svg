@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">雞蛋戰車操作方式</title>
+  <desc id="desc">WASD 或方向鍵移動，Space 發射炮彈，滑鼠控制炮塔瞄準方向</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#15191c"/><stop offset="1" stop-color="#252a2d"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="8" stdDeviation="10" flood-opacity=".35"/></filter>
+  </defs>
+  <rect width="1200" height="420" rx="34" fill="url(#bg)"/>
+  <text x="72" y="75" font-family="Noto Sans CJK TC, Noto Sans CJK, sans-serif" font-size="38" font-weight="800" fill="#fff4c2">操作方式</text>
+  <text x="72" y="112" font-family="Noto Sans CJK TC, Noto Sans CJK, sans-serif" font-size="20" fill="#b9b6aa">桌面瀏覽器直接開啟 index.html 即可遊玩</text>
+
+  <g font-family="Noto Sans CJK TC, Noto Sans CJK, sans-serif" filter="url(#shadow)">
+    <g transform="translate(72 158)">
+      <rect width="320" height="200" rx="24" fill="rgba(255,255,255,.055)" stroke="#fff" stroke-opacity=".12"/>
+      <rect x="131" y="32" width="58" height="58" rx="12" fill="#333b40" stroke="#fff" stroke-opacity=".16"/>
+      <text x="160" y="70" text-anchor="middle" font-size="22" font-weight="700" fill="#f4f1df">W</text>
+      <rect x="66" y="98" width="58" height="58" rx="12" fill="#333b40" stroke="#fff" stroke-opacity=".16"/>
+      <text x="95" y="136" text-anchor="middle" font-size="22" font-weight="700" fill="#f4f1df">A</text>
+      <rect x="131" y="98" width="58" height="58" rx="12" fill="#333b40" stroke="#fff" stroke-opacity=".16"/>
+      <text x="160" y="136" text-anchor="middle" font-size="22" font-weight="700" fill="#f4f1df">S</text>
+      <rect x="196" y="98" width="58" height="58" rx="12" fill="#333b40" stroke="#fff" stroke-opacity=".16"/>
+      <text x="225" y="136" text-anchor="middle" font-size="22" font-weight="700" fill="#f4f1df">D</text>
+      <text x="160" y="184" text-anchor="middle" fill="#fff4c2" font-size="25" font-weight="700">移動雞蛋戰車</text>
+    </g>
+
+    <g transform="translate(440 158)">
+      <rect width="320" height="200" rx="24" fill="rgba(255,255,255,.055)" stroke="#fff" stroke-opacity=".12"/>
+      <rect x="50" y="58" width="220" height="62" rx="15" fill="#333b40" stroke="#fff" stroke-opacity=".16"/>
+      <text x="160" y="99" text-anchor="middle" font-size="23" font-weight="800" fill="#f4f1df">SPACE</text>
+      <text x="160" y="154" text-anchor="middle" fill="#fff4c2" font-size="25" font-weight="700">發射橘色炮彈</text>
+    </g>
+
+    <g transform="translate(808 158)">
+      <rect width="320" height="200" rx="24" fill="rgba(255,255,255,.055)" stroke="#fff" stroke-opacity=".12"/>
+      <circle cx="160" cy="82" r="52" fill="#333b40" stroke="#fff" stroke-opacity=".16"/>
+      <path d="M146 48 L196 82 L146 116 Z" fill="#ffdd55"/>
+      <text x="160" y="154" text-anchor="middle" fill="#fff4c2" font-size="25" font-weight="700">滑鼠控制炮塔</text>
+    </g>
+  </g>
+</svg>
